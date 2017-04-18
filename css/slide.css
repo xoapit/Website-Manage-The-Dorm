@@ -1,0 +1,50 @@
+/* CSS Document */
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+    .carousel-control {
+        z-index: 2;
+    }
+}
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    height: 100%;
+}
+.item:nth-child(1) {
+    background: url(../image/g8.jpg);
+    background-size: cover;
+}
+.item:nth-child(2) {
+    background: url(../image/g2.jpg);
+    background-size: cover;
+}
+.item:nth-child(3) {
+    background: url(../image/g6.jpg);
+    background-size: cover;
+}
+.item:nth-child(4) {
+    background: url(../image/g7.jpg);
+    background-size: cover;
+}

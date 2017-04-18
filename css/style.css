@@ -1,0 +1,394 @@
+/* CSS Document */
+
+body {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.bodypage {
+    background: #d2d7d3;
+}
+.container {
+    padding: 0px 0px 0px 0px;
+}
+.paddingText {
+    padding-left: 20px;
+    padding: 10px 10px 10px 10px;
+    font-family: "leelawadee UI";
+}
+
+#menu ul li:hover {
+    background: #e74c3c;	
+}
+
+
+h2 {
+    font-weight: 700;
+}
+.navbar {
+    /*fixtop menu*/
+    opacity: 0.9;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navmenu2 {
+    background: #34495e;
+}
+.navbar-header {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.navbar-brand {
+    font-weight: 200;
+    color: #FFF;
+}
+.navbar-brand:hover {
+    color: #FFF;
+    font-weight: bolder;
+    background: #e74c3c;
+
+    transition: all 1s;
+    font-size: 20px;
+}
+.headerlogo {
+    background: #2980b9;
+    margin-bottom: 2px;
+}
+
+
+
+.search-box{
+}
+
+.search-box input[type=text] {
+	width:75%;
+    border: none;
+	margin-right:10px;
+    box-shadow: none;
+    display: inline-block;
+    padding-left:15px;
+	padding-right:15px;
+	text-align:center;
+	background:#FFF;
+    
+}
+.search-box input[type=text]:hover,
+.search-box input[type=text]:focus,
+.search-box input[type=text]:active {
+    box-shadow: #0C0;
+	border:#F00 solid 1px;
+}
+
+.search-box .btn{
+}
+
+.search-box .btn:active{
+	font-weight:bolder;
+	border:none;
+}
+
+
+.colorRed {
+    background: #e74c3c;
+}
+.font {
+    font-family: "leelawadee UI";
+    font-weight: bold;
+    color: #FFF;
+}
+
+
+.boxlogin {
+    margin-top: 7px;
+}
+.colorPrime {
+    background: #2980b9;
+}
+.colorTextWhite {
+    color: #FFF;
+}
+.boxtrai {
+    width: 100%;
+    margin-bottom: 20px;
+    background: #F7F7F7;
+    height: auto;
+}
+.boxtrai ul {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.boxtrai ul li {
+    color: #222;
+    padding: 10px;
+	border-bottom:#666 dashed 1px;
+}
+.boxtrai ul li:hover {
+	background:#e74c3c;
+	color:#FFF;
+}
+
+.boxtrai ul li a:hover {
+	text-decoration:none;
+	font-size:16px;
+	transition: all 0.2s;
+}
+.boxtrai ul a {
+    color: #111;	
+}
+.boxtitle {
+    padding: 12px;
+    background: #2980b9;
+    font-weight: bold;
+    color: #FFF;
+}
+.khunggiua {
+    width: 100%;
+}
+.boxSlide {
+    width: 100%;
+    background: #FFFFFF;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.boxChung {
+    width: 100%;
+    background: #FEFEFE;
+	margin-bottom:20px;
+}
+.noidung{
+	padding:20px;
+}
+.gachchan {
+    width: 82px;
+    height: 4px;
+    background: #3498db;
+}
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    padding-left: 10%;
+    color: #CCC;
+    background: #253b50;
+}
+
+
+.btn-top {
+    background:#093;
+    background-repeat: no-repeat;
+    border: medium none;
+    bottom: 20px;
+    cursor: pointer;
+    display: none;
+    height: 50px;
+    outline: medium none;
+    padding: 0;
+    position: fixed;
+    right: 20px;
+    width: 50px;
+    z-index: 9999;
+}
+
+
+
+/*login Toan*/
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 14px 14px;
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+
+/* Tin Tức */
+
+<!-- Tin Tưc -->
+.glyphicon {    margin-right:4px !important; }
+ 
+.pagination .glyphicon {    
+     margin-right:0px !important; 
+}
+.pagination a { color:#555;}
+.panel ul { 
+    padding:0px;    
+    margin:0px; 
+    list-style:none;
+}
+ 
+ 
+.news-item {    
+    padding:4px 4px;    
+    margin:0px; 
+    border-bottom:1px dotted #555;
+}
+.news-item img {
+	 margin-right:5px;
+}
+
+
+
+/*thumbnail*/
+.thumbnail{
+	padding:0px;
+	margin:0px;
+}
+
+.caption{
+	text-align:center;
+}
+
+.rowthumbnail{
+	background:#FFF;
+	margin-bottom:0px;
+}
+
+.boxtintuc{
+	padding:10px;
+}
+
+h4{
+	text-align:center;
+}
+
+/* Box Thông tin sinh viên */
+.boxThongtinsinhvien{
+	 margin-top: 10px;
+	 width: 100%;
+     background: #FFFFFF;
+}
+
+.rowForm{
+	margin-top: 10px;
+}
+
+.rowForm td{
+	width:50%;
+    color:#005500;
+}
+
+
+.rowForm input{
+    width: 50%;
+}
+
+.phongsv{
+	border:#999 solid 1px;
+	font-weight:700;
+	text-align:right;
+	margin-top:10px;
+}
+
+.svtitle{
+	font-size:24px;
+	padding:20px;
+	background:#3498db;
+	margin-bottom:6px;
+	color:#FFF;
+	text-align:center;
+}
+
+.phong a:hover{
+	font-style:inherit;
+	text-decoration:blink;
+}
+
+.svtitle:hover{
+	background:#e74c3c;
+	
+}
+
+btn{
+	border-radius:0px;
+}
+btn-danger{
+	border-radius:0px;
+}
+btn-block{
+	border-radius:0px;
+}
+
+.boxtron{
+	
+	border-radius:50%;
+	border:#06F solid 3px;
+}
+
+h5{
+	text-align:center;
+	font-size:18px;
+	color:#EEEEEE;
+}
+
+.capabil_grid2 ,.capabil_grid1,.capabil_grid3,.capabil_grid4{
+		font-size: 54px;
+		float: left;
+		width: 25%;
+		padding: 0 10px;
+	}
+	/*.capil_text {
+		padding-top: 35px;
+		width: auto;
+		height: auto;
+	}*/
+	.capacity{
+	padding:100px 0;
+	/*background:#f7f7f7;*/
+}
+.capabil_grid1{
+	font-size:60px;
+    font-family: 'Viga', sans-serif;
+	color:#00A4E4;
+}
+.capabil_grid2{
+	font-size:60px;
+    font-family: 'Viga', sans-serif;
+	color:#b7c439;
+}
+.capabil_grid3{
+	font-size:60px;
+    font-family: 'Viga', sans-serif;
+	color:#FDA30E;
+}
+.capabil_grid4{
+	font-size:60px;
+    font-family: 'Viga', sans-serif;
+	color:#464646;
+}
+.capil_text {
+    border: 3px solid #000;
+    width: 202px;
+    height: 202px;
+	margin: auto;
+    padding-top: 44px;
+    border-radius: 100%;
+    border-left: 3px solid #01A4E4;
+    border-top: 3px solid #01A4E4;
+}
+.capil_text p {
+    color: #464646;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.capacity h3 {
+    font-size: 35px;
+    color: #00A4E4;
+    text-align: center;
+    margin-bottom: 30px;
+}
